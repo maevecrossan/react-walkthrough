@@ -14,7 +14,12 @@ class StatefulGreeting extends React.Component {
         this.setState({
             introduction: "Goodbye!", // updates the above property
             buttonText: "Enter",
+        }, ()=>{
+            // this callback ftn is run after setState completes.
+        console.log('new state', this.state.introduction);
+        console.log('new state', this.state.buttonText);
         });
+            // this vallback ftn is run before setState completes.
         console.log(this.state.introduction);
         console.log(this.state.buttonText);
     }
@@ -22,7 +27,9 @@ class StatefulGreeting extends React.Component {
     render() {
         return (
             <div>
-                <h1>{this.state.introduction} {this.props.name}, {this.props.greeting}</h1>
+                <h1>
+                    {this.state.introduction} {this.props.name}, {this.props.greeting}
+                    </h1>
                 <button onClick={() => this.handleClick()}>{this.state.buttonText}</button>
             </div>
         )
