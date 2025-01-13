@@ -1,6 +1,6 @@
 import React from 'react'
 
-function Book(props) {
+function Book(props) { //Receives the data as a prop and uses it.
     const book = props.book
     return (
         <div>
