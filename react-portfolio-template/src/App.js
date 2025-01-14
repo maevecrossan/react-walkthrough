@@ -17,12 +17,13 @@ import './App.css';
 // import UncontrolledForm from './components/UncontrolledForm';
 // import HooksCounter from './components/HooksCounter'
 // import ClassCounter from './components/ClassCounter'
-import ControlledFormWithHooks from './components/ControlledFormWithHooks'
+// import ControlledFormWithHooks from './components/ControlledFormWithHooks'
+import UseStateWithArrays from './components/UseStateWithArrays'
 
 function App() {
     return (
         <div className="App">
-            <ControlledFormWithHooks />
+            <UseStateWithArrays />
         </div>
     );
 }
