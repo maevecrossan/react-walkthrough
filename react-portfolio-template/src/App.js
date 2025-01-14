@@ -10,17 +10,19 @@ import './App.css';
 // import NestingComponents from './components/NestingComponents.js'
 // import MethodsAsPropsParent from './components/MethodsAsPropsParent.js';
 // import RenderingLists from './components/RenderingLists'
-//import LifeCyclesCDU from './components/LifeCyclesCDU';
-//import LifeCyclesCDM from './components/LifeCyclesCDM';
+// import LifeCyclesCDU from './components/LifeCyclesCDU';
+// import LifeCyclesCDM from './components/LifeCyclesCDM';
 // import LifeCycleCWU from './components/LifeCycleCWU';
 // import ControlledForm from './components/ControlledForm';
 // import UncontrolledForm from './components/UncontrolledForm';
-import SearchBar from './components/SearchBar'
+// import HooksCounter from './components/HooksCounter'
+// import ClassCounter from './components/ClassCounter'
+import ControlledFormWithHooks from './components/ControlledFormWithHooks'
 
 function App() {
     return (
         <div className="App">
-            <SearchBar />
+            <ControlledFormWithHooks />
         </div>
     );
 }

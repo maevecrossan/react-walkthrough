@@ -11,9 +11,3 @@
 /* 'default' allows you to import the function under a different name if necessary, 
 * despite the fact that it breaks convention.
 */
-
-/* This functio
-*   - 
-*   - 
-*   - 
-*/
