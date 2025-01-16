@@ -18,12 +18,15 @@ import './App.css';
 // import HooksCounter from './components/HooksCounter'
 // import ClassCounter from './components/ClassCounter'
 // import ControlledFormWithHooks from './components/ControlledFormWithHooks'
-import UseStateWithArrays from './components/UseStateWithArrays'
+// import UseStateWithArrays from './components/UseStateWithArrays'
+// import UseStateWithObjects from './components/UseStateWithObjects'
+// import UseEffectCounter from './components/UseEffectCounter'
+import UseEffectCounterContainer from './components/UseEffectCounterContainer'
 
 function App() {
     return (
         <div className="App">
-            <UseStateWithArrays />
+            <UseEffectCounterContainer />
         </div>
     );
 }
