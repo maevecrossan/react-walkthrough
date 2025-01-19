@@ -32,6 +32,7 @@ function UseEffectCounter() {
         }
     }, []); // Runs only once on mount //empty array to only run it once
 
+    
     return (
         <div>
             <button onClick={
