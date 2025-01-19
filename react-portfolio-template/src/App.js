@@ -23,12 +23,13 @@ import './App.css';
 // import UseEffectCounter from './components/UseEffectCounter'
 // import UseEffectCounterContainer from './components/UseEffectCounterContainer'
 // import HTTPRequests from './components/HTTPRequests'
-import HTTPPost from './components/HTTPPost'
+// import HTTPPost from './components/HTTPPost'
+import HTTPHooks from './components/HTTPHooks'
 
 function App() {
     return (
         <div className="App">
-            <HTTPPost />
+            <HTTPHooks />
         </div>
     );
 }
